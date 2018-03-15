@@ -1,0 +1,100 @@
+
+html {
+  font-size: 16px;
+  background: pink bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  color:pink;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background: black;
+  height: 40px;
+  border-bottom: 2px solid black;
+
+}
+nav a{
+  display: inline-block;
+}
+
+nav{
+  text-align:center;
+}
+
+header nav{
+  padding: 5px 0 0 0;
+}
+
+header nav a{
+  font-size: 1.6em;
+  margin: 0 30px;
+}
+
+section{
+  text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#instrument1{
+  background: url("https://i.pinimg.com/originals/6b/b7/c0/6bb7c06217ced9e57738078704d29a6b.jpg")
+}
+
+#instrument2{
+  display:none;
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/3b/fe/61/3bfe6181f63f2ff005a19bec045d90e0.png");
+}
+
+#instrument3{
+  display:none;
+  background: url("https://www.insights.uca.org.au/wp-content/uploads/2017/02/iStock-530809730.jpg");
+}
+
+
+.sounds {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sound {
+  border: 0.1rem solid black;
+  margin: 1rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  background: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+  cursor:pointer;
+}
